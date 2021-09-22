@@ -1,23 +1,22 @@
 {
-  "name": "personal-page",
+  "name": "webpack-tailwindcss-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Webpack and Tailwindcss boilerplate",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --progress --open",
     "prod": "cross-env NODE_ENV=production webpack --progress --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nguyenhuutuananh/personal-page.git"
+    "url": "git+https://github.com/nguyenhuutuananh/webpack-tailwindcss-boilerplate.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["webpack and tailwindcss", "webpack", "tailwindcss", "boilerplate"],
+  "author": "Tuan Anh Nguyen <nguyenhuutuananh2@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nguyenhuutuananh/personal-page/issues"
+    "url": "https://github.com/nguyenhuutuananh/webpack-tailwindcss-boilerplate/issues"
   },
-  "homepage": "https://github.com/nguyenhuutuananh/personal-page#readme",
+  "homepage": "https://github.com/nguyenhuutuananh/webpack-tailwindcss-boilerplate#readme",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
